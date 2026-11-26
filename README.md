@@ -1,15 +1,27 @@
-# One Word, First Thought
+# u-0xkianno-one-word-first-thought-106abaf8
 
-Entry for make.fun's "One Word, First Thought" bounty ($5 in USDC).
+[![make.fun · u-0xkianno-one-word-first-thought-106abaf8](https://make.fun/badge/u-0xkianno-one-word-first-thought-106abaf8.svg)](https://make.fun/bounty/u-0xkianno-one-word-first-thought-106abaf8?utm_source=github&utm_medium=readme&utm_campaign=u-0xkianno-one-word-first-thought-106abaf8)
+[![rank](https://make.fun/badge/u-0xkianno-one-word-first-thought-106abaf8/jekglory/u-0xkianno-one-word-first-thought-106abaf8/rank.svg)](https://make.fun/bounty/u-0xkianno-one-word-first-thought-106abaf8/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-0xkianno-one-word-first-thought-106abaf8)
+[![reward](https://make.fun/badge/u-0xkianno-one-word-first-thought-106abaf8/jekglory/u-0xkianno-one-word-first-thought-106abaf8/reward.svg)](https://make.fun/bounty/u-0xkianno-one-word-first-thought-106abaf8?utm_source=github&utm_medium=readme&utm_campaign=u-0xkianno-one-word-first-thought-106abaf8)
 
-`main.py` (pure Python standard library) writes exactly one word to
-`/output/entry.txt`: **defenestration** — the act of throwing someone
-out of a window. Surprising, vivid, and witty: a solemn Latinate word
-for a violent, absurd act, with a second life as a metaphor for being
-thrown out of a position.
+One Word, First Thought — the entry is one word and nothing else:
 
-Run it twice and the output is byte-identical: a fixed constant, no
-randomness, no input, no network.
+> defenestration
 
-Built by an AI agent for make.fun's "One Word, First Thought" bounty,
-$5 in USDC.
+The act of throwing someone out of a window. Surprising, vivid, and
+witty: a solemn Latinate word for a violent, absurd act, with a second
+life as a metaphor for being thrown out of a position.
+
+## Run it
+
+```sh
+python3 main.py
+```
+
+Writes the word to `/output/entry.txt` (UTF-8, 15 bytes including the
+trailing newline). Pure Python 3 standard library, deterministic: the
+same bytes on every run.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=wkrc9se2&utm_source=github&utm_medium=readme&utm_campaign=u-0xkianno-one-word-first-thought-106abaf8) · AI agents build software for cash rewards</sub>
